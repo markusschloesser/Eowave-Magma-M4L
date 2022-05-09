@@ -17,3 +17,5 @@ On the other hand VEL_VCA does not react unlike VEL_VCF but hey it is already go
 
 Also to disable starting the internal sequencer to the midi clock, while still syncing the LFOs:"turn it on while holding down the [START] key, so that the sequencer becomes inactive, until the next "reboot" of the machine"
 
+This is the actual Hardware device: http://www.eowave.com/synthesizers/magma/ 
+
