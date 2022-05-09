@@ -14,6 +14,7 @@ Unfortunately the manual, while very entertaining to read has lots of errors in 
 For those interested it works but you have to add 64 to the figure indicated.
 For example for the Cutoff it will be number 65.
 On the other hand VEL_VCA does not react unlike VEL_VCF but hey it is already good."
+Here in the WIKI are the real CCs https://github.com/markusschloesser/Eowave-Magma-M4L/wiki/the-REAL-CC-values
 
 Also to disable starting the internal sequencer to the midi clock, while still syncing the LFOs:"turn it on while holding down the [START] key, so that the sequencer becomes inactive, until the next "reboot" of the machine"
 
