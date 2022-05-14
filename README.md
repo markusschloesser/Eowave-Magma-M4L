@@ -8,9 +8,7 @@ I based my device on the fantastic M4L device by Dominik Bohn (https://nukemodul
 4. Gave all parameters the proper order so that you can control it nicely from controllers
 5. Named the parameter values where applicable (LFO waveforms, Octave tune and sub OSC tune) 
 
-I tried contacting Eowave a couple of times to clarify strange behavior, unfortunately they never replied. So if you have any insights (especially any available Sysex calls for patch parsing), please, let me know! :-)
-
-Unfortunately the manual, while very entertaining to read has lots of errors in it. ALL CCs are wrong (I checked the english, french and german version) and using trial and error I figured out the real CCs. THEN I found this in a french forum "
+Unfortunately the manual, while very entertaining to read has a couple of errors in it. ALL CCs are wrong (I checked the english, french and german version) and using trial and error I figured out the real CCs. THEN I found this in a french forum "
 For those interested it works but you have to add 64 to the figure indicated.
 For example for the Cutoff it will be number 65.
 On the other hand VEL_VCA does not react unlike VEL_VCF but hey it is already good."
@@ -19,4 +17,3 @@ Here in the WIKI are the real CCs https://github.com/markusschloesser/Eowave-Mag
 Also to disable starting the internal sequencer to the midi clock, while still syncing the LFOs:"turn it on while holding down the [START] key, so that the sequencer becomes inactive, until the next "reboot" of the machine"
 
 This is the actual Hardware device: http://www.eowave.com/synthesizers/magma/ 
-
